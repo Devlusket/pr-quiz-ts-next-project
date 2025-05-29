@@ -1,6 +1,7 @@
 "use client"
 
-import { RangerColor, resultsMap } from "../data/quizData";
+import { resultsMap } from "../data/quizData";
+import { RangerColor } from "@/types/quiz";
 
 export function calculateResult(answers: RangerColor[]) {
   const count: Partial<Record<RangerColor, number>> = {};
