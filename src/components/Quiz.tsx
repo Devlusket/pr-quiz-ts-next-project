@@ -101,13 +101,7 @@ import { useState } from "react";
 import QuestionCard from "./QuestionCard";
 import ResultCard from "./ResultCard";
 import { questions, resultsMap } from "@/data/quizData";
-
-export type RangerColor = "Vermelho" | "Azul" | "Amarelo" | "Preto" | "Rosa";
-
-interface Option {
-  text: string;
-  ranger: RangerColor;
-}
+import { RangerColor, Option } from "@/types/quiz";
 
 export default function Quiz() {
   const [currentIndex, setCurrentIndex] = useState(0);
