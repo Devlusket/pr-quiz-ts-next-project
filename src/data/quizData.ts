@@ -1,4 +1,4 @@
-import type { Question, ResultsMap, RangerColor } from "../types/quiz";
+import type { Question, ResultsMap } from "../types/quiz";
 
 // export const questions: Question[] = [
 //   {
