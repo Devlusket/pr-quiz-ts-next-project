@@ -9,6 +9,7 @@ export interface Question {
   question: string;
   options: Option[];
   image?: string;
+  id: number;
 }
 
 export interface Result {
